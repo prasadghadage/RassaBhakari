@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Map from './Componets/Map.js';
+import Menu from './Componets/Menu.js';
 import reportWebVitals from './reportWebVitals';
+import Testimonials from './Componets/Testimonials.js';
+import Vision from './Componets/Vision.js';
+import Static from './Componets/Static.js';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   
+   <Static/>
+   <Vision/>
+   
+   <Menu/>
+   <Testimonials/>
+<Map/>
   </React.StrictMode>
 );
 

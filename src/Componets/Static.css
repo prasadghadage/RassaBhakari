@@ -1,0 +1,34 @@
+.container_stat{
+  height: 170px;
+  background: #c80815;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container_stat h2{
+    color: #fff;
+    font-size: 22px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 767px)
+{
+    .container_stat{
+        height: 100%;
+        flex-direction: column;
+    }
+    .container_stat h2{
+        font-weight: 400;
+    }
+}
