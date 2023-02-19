@@ -1,67 +1,69 @@
-.conatainer_about{
-    display: flex;
-    margin-left: 100px;
-    margin-left: 100px;
-    
+.conatainer_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  justify-content: space-around;
 }
-.first_container{
-    width: 40%;
-    margin-left: 100px;
-    margin-top: 200px;
+.first_container {
+  width: 40%;
+  margin-left: 100px;
 }
-.yes_symbol{
-    color: red;
+.yes_symbol {
+  color: red;
 }
-.details{
-    
-    font-size: 32px;
-    line-height: 45px;
-    color: #c80815;
-    font-weight: 500;
+.details {
+  font-size: 32px;
+  line-height: 45px;
+  color: #c80815;
+  font-weight: 500;
 }
-.speciality{
-    margin-top: 50px;
-    
+.speciality {
+  margin-top: 50px;
 }
-.speciality li i{
-    color: #c80815;
-    font-size: large;
-    font-weight: bold;
-    min-width: 30px;
-    
-    font-size: 30px;
+.speciality li i {
+  color: #c80815;
+  font-size: large;
+  font-weight: bold;
+  min-width: 30px;
+
+  font-size: 30px;
 }
-.second_container{
-    width: 500px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+.second_container {
+  width: 500px;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-@media (max-width: 1200px){
-    .conatainer_about{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .first_container{
-        
-        margin-left: auto;
-    width: 130%;
+@media (max-width: 940px) {
+  .conatainer_about {
+    height: 100%;
+    padding: 45px 20px;
+  }
+  .first_container {
+    margin-left: auto;
+    width: 60%;
     margin-right: auto;
     font-weight: 200;
     font-size: 20px;
-    }
-    .second_container{
-        margin-left: auto;
-        margin-right: auto;
+  }
+  .second_container {
+    width: 40%;
+  }
+}
 
-    }
+@media (max-width: 780px) {
+  .conatainer_about {
+    flex-direction: column;
+  }
+  .conatainer_about,
+  .first_container,
+  .second_container {
+    width: 100%;
+  }
+  .details {
+    font-size: 27px;
+  }
 }

@@ -102,13 +102,11 @@ article h4 {
 .next {
   position: absolute;
   top: 200px;
-  
-
   transform: translateY(-50%);
   background: hsl(210, 22%, 49%);
   color: #fff;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 30px;
+  height: 1.5rem;
   display: grid;
   place-items: center;
   border-color: transparent;
