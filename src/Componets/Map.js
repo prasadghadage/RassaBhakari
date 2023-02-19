@@ -16,7 +16,7 @@ const Contact = () => {
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=plot no 178, Om Dental Clinic, Ulwe, Shop- C13, Sai Sapphire, 180, Sector 20, Ulwe, Maharashtra 410206, India&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Hotel Rassa Bhakri, Behind Jijamata Garden, Jijamata Society Shirur, Maharashtra, India&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>
           </div>
@@ -24,7 +24,9 @@ const Contact = () => {
             <div className="clinic_time_table">
               <h2 className="hotel_name">
                 <span>
-                  <i className="fa-solid fa-angles-right"></i>
+                <i className="fas fa-regular fa-angle-right"></i>
+                <i className="fas fa-regular fa-angle-right"></i>
+               
                 </span>
                 RASSABHAKARI HOTEL
               </h2>

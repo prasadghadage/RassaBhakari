@@ -7,19 +7,21 @@ import reportWebVitals from './reportWebVitals';
 import Testimonials from './Componets/Testimonials.js';
 import Vision from './Componets/Vision.js';
 import Static from './Componets/Static.js';
-
+import Footer from './Componets/Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './Componets/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   
+   <Navbar/>
    <Static/>
    <Vision/>
    
    <Menu/>
    <Testimonials/>
 <Map/>
+<Footer/>
   </React.StrictMode>
 );
 
